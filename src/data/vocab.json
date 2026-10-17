@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "note": "Langues : ar = arabe standard (fusha), ary = arabe marocain (Darija), en = anglais, fr = francais (interface). TOUT LE CONTENU ARABE ET DARIJA EST A RELIRE PAR UN LOCUTEUR NATIF. La Darija n'a pas d'orthographe standard : 'ary' = forme principale retenue, 'ary_alt' = variantes acceptees (reponses orales/ecrites).",
+  "themes": ["animals", "colors", "numbers", "nature", "places", "road"],
+  "words": [
+    { "id": "cat", "theme": "animals", "ar": "قطة", "translit": "qiṭṭa", "ary": "قطوس", "ary_translit": "qṭṭūs", "ary_alt": ["قط"], "en": "cat", "fr": "chat", "emoji": "🐱", "level": 1 },
+    { "id": "dog", "theme": "animals", "ar": "كلب", "translit": "kalb", "ary": "كلب", "ary_translit": "kelb", "ary_alt": [], "en": "dog", "fr": "chien", "emoji": "🐶", "level": 1 },
+    { "id": "bird", "theme": "animals", "ar": "طائر", "translit": "ṭāʾir", "ary": "عصفور", "ary_translit": "ʿṣfūr", "ary_alt": ["طير"], "en": "bird", "fr": "oiseau", "emoji": "🐦", "level": 1 },
+    { "id": "fish", "theme": "animals", "ar": "سمكة", "translit": "samaka", "ary": "حوتة", "ary_translit": "ḥūta", "ary_alt": ["سمكة"], "en": "fish", "fr": "poisson", "emoji": "🐟", "level": 1 },
+    { "id": "horse", "theme": "animals", "ar": "حصان", "translit": "ḥiṣān", "ary": "عود", "ary_translit": "ʿūd", "ary_alt": ["حصان"], "en": "horse", "fr": "cheval", "emoji": "🐴", "level": 2 },
+    { "id": "red", "theme": "colors", "ar": "أحمر", "translit": "aḥmar", "ary": "حمر", "ary_translit": "ḥmer", "ary_alt": ["أحمر"], "en": "red", "fr": "rouge", "emoji": "🔴", "level": 1 },
+    { "id": "blue", "theme": "colors", "ar": "أزرق", "translit": "azraq", "ary": "زرق", "ary_translit": "zerq", "ary_alt": ["أزرق"], "en": "blue", "fr": "bleu", "emoji": "🔵", "level": 1 },
+    { "id": "green", "theme": "colors", "ar": "أخضر", "translit": "akhḍar", "ary": "خضر", "ary_translit": "khḍer", "ary_alt": ["أخضر"], "en": "green", "fr": "vert", "emoji": "🟢", "level": 1 },
+    { "id": "yellow", "theme": "colors", "ar": "أصفر", "translit": "aṣfar", "ary": "صفر", "ary_translit": "ṣfer", "ary_alt": ["أصفر"], "en": "yellow", "fr": "jaune", "emoji": "🟡", "level": 1 },
+    { "id": "one", "theme": "numbers", "ar": "واحد", "translit": "wāḥid", "ary": "واحد", "ary_translit": "wāḥed", "ary_alt": [], "en": "one", "fr": "un", "emoji": "1️⃣", "level": 1 },
+    { "id": "two", "theme": "numbers", "ar": "اثنان", "translit": "ithnān", "ary": "جوج", "ary_translit": "jūj", "ary_alt": [], "en": "two", "fr": "deux", "emoji": "2️⃣", "level": 1 },
+    { "id": "three", "theme": "numbers", "ar": "ثلاثة", "translit": "thalātha", "ary": "تلاتة", "ary_translit": "tlāta", "ary_alt": ["ثلاثة"], "en": "three", "fr": "trois", "emoji": "3️⃣", "level": 1 },
+    { "id": "sun", "theme": "nature", "ar": "شمس", "translit": "shams", "ary": "شمس", "ary_translit": "shems", "ary_alt": [], "en": "sun", "fr": "soleil", "emoji": "☀️", "level": 1 },
+    { "id": "moon", "theme": "nature", "ar": "قمر", "translit": "qamar", "ary": "قمر", "ary_translit": "gmer", "ary_alt": [], "en": "moon", "fr": "lune", "emoji": "🌙", "level": 1 },
+    { "id": "water", "theme": "nature", "ar": "ماء", "translit": "māʾ", "ary": "الما", "ary_translit": "lmā", "ary_alt": ["ما", "ماء"], "en": "water", "fr": "eau", "emoji": "💧", "level": 1 },
+    { "id": "house", "theme": "places", "ar": "بيت", "translit": "bayt", "ary": "دار", "ary_translit": "dār", "ary_alt": ["بيت"], "en": "house", "fr": "maison", "emoji": "🏠", "level": 1 },
+    { "id": "school", "theme": "places", "ar": "مدرسة", "translit": "madrasa", "ary": "مدرسة", "ary_translit": "mdersa", "ary_alt": ["المدرسة"], "en": "school", "fr": "école", "emoji": "🏫", "level": 1 },
+    { "id": "car", "theme": "road", "ar": "سيارة", "translit": "sayyāra", "ary": "طوموبيل", "ary_translit": "ṭōmōbīl", "ary_alt": ["سيارة"], "en": "car", "fr": "voiture", "emoji": "🚗", "level": 1 },
+    { "id": "left", "theme": "road", "ar": "يسار", "translit": "yasār", "ary": "ليسر", "ary_translit": "līser", "ary_alt": ["يسار"], "en": "left", "fr": "gauche", "emoji": "⬅️", "level": 1 },
+    { "id": "right", "theme": "road", "ar": "يمين", "translit": "yamīn", "ary": "ليمن", "ary_translit": "līmen", "ary_alt": ["يمين"], "en": "right", "fr": "droite", "emoji": "➡️", "level": 1 },
+    { "id": "straight", "theme": "road", "ar": "مستقيم", "translit": "mustaqīm", "ary": "نيشان", "ary_translit": "nīshān", "ary_alt": ["ديريكت", "مستقيم"], "en": "straight", "fr": "tout droit", "emoji": "⬆️", "level": 2 },
+    { "id": "stop", "theme": "road", "ar": "قف", "translit": "qif", "ary": "ستوب", "ary_translit": "stōb", "ary_alt": ["وقف"], "en": "stop", "fr": "stop", "emoji": "🛑", "level": 1 }
+  ]
+}

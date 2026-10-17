@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "id": "demo-city-01",
+  "name": { "fr": "Ville de départ", "ar": "مدينة البداية", "ary": "المدينة ديال البداية", "en": "Starter City" },
+  "theme": "road",
+  "glb": { "track": "models/track_demo.glb", "car": "models/car.glb", "mascot": "models/mascot.glb" },
+  "pointsPerCorrect": 10,
+  "starsThresholds": [30, 45, 60],
+  "checkpoints": [
+    { "id": "Checkpoint_01", "wordId": "right",    "sign": "Sign_Right",    "expectedAction": "right",    "announceDistance": 40 },
+    { "id": "Checkpoint_02", "wordId": "left",     "sign": "Sign_Left",     "expectedAction": "left",     "announceDistance": 40 },
+    { "id": "Checkpoint_03", "wordId": "straight", "sign": "Sign_Straight", "expectedAction": "straight", "announceDistance": 40 },
+    { "id": "Checkpoint_04", "wordId": "stop",     "sign": "Sign_Stop",     "expectedAction": "stop",     "announceDistance": 35 },
+    { "id": "Checkpoint_05", "wordId": "left",     "sign": "Sign_Left",     "expectedAction": "left",     "announceDistance": 40 },
+    { "id": "Checkpoint_06", "wordId": "right",    "sign": "Sign_Right",    "expectedAction": "right",    "announceDistance": 40 }
+  ],
+  "instructions": {
+    "left":     { "ar": "انعطف يسارًا", "ary": "دور على ليسر", "en": "Turn left" },
+    "right":    { "ar": "انعطف يمينًا", "ary": "دور على ليمن", "en": "Turn right" },
+    "straight": { "ar": "اذهب مباشرة", "ary": "سير نيشان", "en": "Go straight" },
+    "stop":     { "ar": "قف", "ary": "وقف", "en": "Stop" }
+  },
+  "feedback": {
+    "success": { "fr": "Bravo !", "ar": "أحسنت!", "ary": "برافو عليك!", "en": "Well done!" },
+    "retry":   { "fr": "On réessaie ensemble.", "ar": "حاول مرة أخرى", "ary": "عاود عافاك", "en": "Let's try again." }
+  },
+  "note": "Textes arabes et Darija a faire relire par un locuteur natif."
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>stt-test — Whisper navigateur</title><link rel="stylesheet" href="/shared.css"></head>
+<body>
+<h1>stt-test — Whisper (whisper-base)</h1>
+<p><small>Le modèle est téléchargé une fois depuis huggingface.co (puis mis en cache navigateur). <b>Aucun audio n'est envoyé</b> : tout est traité localement.</small></p>
+
+<div class="card">
+  <h2>1. Chargement du modèle</h2>
+  <label>Backend
+    <select id="device">
+      <option value="auto">auto (WebGPU puis repli WASM)</option>
+      <option value="webgpu">WebGPU seul</option>
+      <option value="wasm">WASM seul</option>
+    </select>
+  </label>
+  <button id="load">Charger whisper-base</button>
+  <progress id="prog" max="100" value="0" style="width:100%"></progress>
+  <div id="loadInfo" class="log">Pas chargé.</div>
+</div>
+
+<div class="card">
+  <h2>2. Test libre (3 s)</h2>
+  <label>Langue
+    <select id="freeLang"><option value="arabic">ar (fusha / Darija)</option><option value="english">en</option></select>
+  </label>
+  <button id="rec" disabled>🎤 Enregistrer 3 s</button>
+  <div id="freeOut" class="log">—</div>
+</div>
+
+<div class="card">
+  <h2>3. Liste de 20 mots (vocab.json)</h2>
+  <label>Mode
+    <select id="mode">
+      <option value="ar">ar — fusha (champ ar)</option>
+      <option value="ary">ary — Darija (champs ary + ary_alt + ar)</option>
+      <option value="en">en — anglais</option>
+    </select>
+  </label>
+  <label>Locuteur
+    <select id="speaker"><option>adulte</option><option>enfant</option></select>
+  </label>
+  <button id="reset">Réinitialiser</button>
+  <button id="export">Exporter les résultats (JSON local)</button>
+  <p id="summary"></p>
+  <table id="words"><thead><tr><th>#</th><th>Attendu</th><th>Reconnu</th><th>Match exact</th><th>Vocab fermé</th><th>ms</th><th></th></tr></thead><tbody></tbody></table>
+</div>
+
+<script type="module" src="./main.js"></script>
+</body></html>

@@ -1,0 +1,9 @@
+body { font: 16px/1.5 system-ui, sans-serif; margin: 0; padding: 1rem; max-width: 60rem; margin-inline: auto; background:#fafafa; color:#111 }
+button, select { font: inherit; padding: .6rem 1rem; min-height: 44px; margin: .2rem; cursor: pointer }
+button:disabled { opacity: .5; cursor: default }
+table { border-collapse: collapse; width: 100% }
+td, th { border: 1px solid #ccc; padding: .3rem .5rem; text-align: start }
+.ar { font-size: 1.6rem }
+.ok { background:#d8f5d8 } .near { background:#fff3c4 } .ko { background:#fcd9d9 }
+pre, .log { background:#eee; padding:.6rem; overflow:auto; white-space:pre-wrap; font-size:.85rem }
+.card { background:#fff; border:1px solid #ddd; border-radius:8px; padding:1rem; margin:1rem 0 }

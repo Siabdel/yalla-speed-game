@@ -1,0 +1,17 @@
+# Environnement Python (venv)
+bin/
+include/
+lib/
+lib64
+pyvenv.cfg
+
+# Node
+node_modules/
+dist/
+*.log
+.vite/
+
+# Divers
+.DS_Store
+.env
+.env.*
